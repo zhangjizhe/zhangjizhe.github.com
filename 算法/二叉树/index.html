@@ -17,18 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>categories | 张继哲的博客!</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="https://zjizhe.cn/categories/index.html">
+  <title>二叉树 | 张继哲的博客!</title>
+  <meta name="description" content="算法入门准备从树入手 按照网上读代码理解，目前 remove 还有部分还有不理解下一步骤了解排序问题，跟着 ladadong 学习 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717">
+<meta property="og:type" content="article">
+<meta property="og:title" content="二叉树">
+<meta property="og:url" content="https://zjizhe.cn/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="算法入门准备从树入手 按照网上读代码理解，目前 remove 还有部分还有不理解下一步骤了解排序问题，跟着 ladadong 学习 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717">
 <meta property="og:locale">
-<meta property="article:published_time" content="2020-11-18T03:21:46.000Z">
-<meta property="article:modified_time" content="2020-11-18T03:22:00.717Z">
+<meta property="article:published_time" content="2020-11-20T03:04:00.000Z">
+<meta property="article:modified_time" content="2020-11-20T03:05:22.517Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="二叉树">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://zjizhe.cn/categories/index.html">
+  <link rel="canonical" href="https://zjizhe.cn/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -299,14 +302,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="page-" class="article article-type-page" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="draft-二叉树" class="article article-type-draft" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      categories
+      二叉树
     </h1>
   
 
@@ -314,29 +317,41 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/categories/index.html" class="article-date">
-	  <time datetime="2020-11-18T03:21:46.000Z" itemprop="datePublished">2020-11-18</time>
+	<a href="/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/" class="article-date">
+	  <time datetime="2020-11-20T03:04:00.000Z" itemprop="datePublished">2020-11-20</time>
 	</a>
 </span>
         
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/%E7%AE%97%E6%B3%95/">算法</a>
+  </span>
+
         
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" rel="tag">二叉树</a>
+  </span>
+
 
         
 
 	<span class="article-read hidden-xs">
     	<i class="icon icon-eye-fill" aria-hidden="true"></i>
-    	<span id="/categories/index.html" class="leancloud_visitors"  data-flag-title="categories">
+    	<span id="/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/" class="leancloud_visitors"  data-flag-title="二叉树">
 			<span class="leancloud-visitors-count">0</span>
 		</span>
     </span>
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/categories/index.html#comments" class="article-comment-link">Comments</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/#comments" class="article-comment-link">Comments</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        
+        <p>算法入门准备从树入手</p>
+<p>按照网上读代码理解，目前 remove 还有部分还有不理解<br>下一步骤了解排序问题，跟着 ladadong 学习</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br></pre></td><td class="code"><pre><span class="line">class TreeNode &#123;</span><br><span class="line">		constructor(data, left, right) &#123;</span><br><span class="line">			this.data &#x3D; data;</span><br><span class="line">			this.right &#x3D; right;</span><br><span class="line">			this.left &#x3D; left;</span><br><span class="line">			this.count &#x3D; 1;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	class BTree &#123;</span><br><span class="line">		constructor() &#123;</span><br><span class="line">			this.root &#x3D; null</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		_removeNode(node, data) &#123;</span><br><span class="line">			if (node &#x3D;&#x3D; null) &#123;</span><br><span class="line">				return null</span><br><span class="line">			&#125;</span><br><span class="line">			if (data &#x3D;&#x3D; node.data) &#123;</span><br><span class="line">				&#x2F;&#x2F;没有双节点</span><br><span class="line">				if (node.left &#x3D;&#x3D; null &amp;&amp; node.right &#x3D;&#x3D; null) &#123;</span><br><span class="line">					return null</span><br><span class="line">				&#125;</span><br><span class="line">				&#x2F;&#x2F;没有左节点</span><br><span class="line">				if (node.left &#x3D;&#x3D;&#x3D; null) return node.right;</span><br><span class="line">				&#x2F;&#x2F;没有右节点</span><br><span class="line">				if (node.right &#x3D;&#x3D;&#x3D; null) return node.left;</span><br><span class="line"></span><br><span class="line">				&#x2F;&#x2F;有两个节点需要特殊处理</span><br><span class="line">				let tempNode &#x3D; this.getMinNode(node.right);</span><br><span class="line">				node.data &#x3D; tempNode.data;</span><br><span class="line">				node.right &#x3D; this._removeNode(node.right, tempNode.data)</span><br><span class="line">				return node;</span><br><span class="line">			&#125; else if (data &lt; node.data) &#123;</span><br><span class="line">				node.left &#x3D; this._removeNode(node.left, data);</span><br><span class="line">				return node</span><br><span class="line">			&#125; else if (data &lt; node.data) &#123;</span><br><span class="line">				node.right &#x3D; this._removeNode(node.right, data);</span><br><span class="line">				return node</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		remove(data) &#123;</span><br><span class="line">			this._removeNode(this.root, data);</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		insert(data) &#123;</span><br><span class="line">			let newNode &#x3D; new TreeNode(data, null, null);</span><br><span class="line">			if (this.root &#x3D;&#x3D; null) &#123;</span><br><span class="line">				this.root &#x3D; newNode;</span><br><span class="line">			&#125; else &#123;</span><br><span class="line">				let currentNode &#x3D; this.root;</span><br><span class="line">				let parentNode &#x3D; null;</span><br><span class="line">				while (currentNode) &#123;</span><br><span class="line">					parentNode &#x3D; currentNode;</span><br><span class="line">					if (newNode.data &lt; currentNode.data) &#123;</span><br><span class="line">						currentNode &#x3D; currentNode.left</span><br><span class="line">						if (!currentNode) &#123;</span><br><span class="line">							parentNode.left &#x3D; newNode;</span><br><span class="line">							break;</span><br><span class="line">						&#125;</span><br><span class="line">					&#125; else if (newNode.data &gt; currentNode.data) &#123;</span><br><span class="line">						currentNode &#x3D; currentNode.right</span><br><span class="line">						if (!currentNode) &#123;</span><br><span class="line">							parentNode.right &#x3D; newNode</span><br><span class="line">							break</span><br><span class="line">						&#125;</span><br><span class="line">					&#125; else if (newNode.data &#x3D; currentNode.data) &#123;</span><br><span class="line">						currentNode.count++;</span><br><span class="line">						break</span><br><span class="line">					&#125;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		getMinNode(node &#x3D; this.root) &#123;</span><br><span class="line">			let currentNode &#x3D; node</span><br><span class="line">			while (currentNode.left) &#123;</span><br><span class="line">				currentNode &#x3D; currentNode.left</span><br><span class="line">			&#125;</span><br><span class="line">			return currentNode</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		getMaxNode(node &#x3D; this.root) &#123;</span><br><span class="line">			let currentNode &#x3D; node</span><br><span class="line">			while (currentNode.right) &#123;</span><br><span class="line">				currentNode &#x3D; currentNode.right</span><br><span class="line">			&#125;</span><br><span class="line">			return currentNode</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">		find(data) &#123;</span><br><span class="line">			let currentNode &#x3D; this.root;</span><br><span class="line">			while (currentNode) &#123;</span><br><span class="line">				if (currentNode &#x3D;&#x3D; data) &#123;</span><br><span class="line">					return currentNode</span><br><span class="line">				&#125; else if (currentNode.data &lt; data) &#123;</span><br><span class="line">					currentNode &#x3D; currentNode.left;</span><br><span class="line">				&#125; else if (currentNode.data &gt; data) &#123;</span><br><span class="line">					currentNode &#x3D; currentNode.right;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			return null</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		getTotalCount(root &#x3D; this.root) &#123;</span><br><span class="line">			if (root &#x3D;&#x3D; null) &#123;</span><br><span class="line">				return 0;</span><br><span class="line">			&#125;</span><br><span class="line">			&#x2F;&#x2F; 先算出左右子树有多少节点</span><br><span class="line">			let left &#x3D; this.getTotalCount(root.left);</span><br><span class="line">			let right &#x3D; this.getTotalCount(root.right);</span><br><span class="line">			&#x2F;* 后序遍历代码位置 *&#x2F;</span><br><span class="line">			&#x2F;&#x2F; 加上自己，就是整棵二叉树的节点数</span><br><span class="line">			let res &#x3D; left + right + 1;</span><br><span class="line">			return res;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	let myTree &#x3D; new BTree();</span><br><span class="line">	let myTree2 &#x3D; new BTree()</span><br><span class="line">	myTree.insert(20);</span><br><span class="line">	myTree.insert(13);</span><br><span class="line">	myTree.insert(7);</span><br><span class="line">	myTree.insert(9);</span><br><span class="line">	myTree.insert(15);</span><br><span class="line">	myTree2.insert(20);</span><br><span class="line">	myTree2.insert(13);</span><br><span class="line">	myTree2.insert(7);</span><br><span class="line">	myTree2.insert(9);</span><br><span class="line">	myTree2.insert(15);</span><br><span class="line">	myTree2.remove(7)</span><br><span class="line">	console.log(myTree)</span><br><span class="line">	console.log(myTree2)</span><br><span class="line">	console.log(myTree.getTotalCount())</span><br><span class="line">	console.log(myTree2.getTotalCount())</span><br></pre></td></tr></table></figure>
       
     </div>
     <div class="article-footer">
@@ -345,7 +360,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="https://zjizhe.cn/categories/index.html" title="categories" target="_blank" rel="external">https://zjizhe.cn/categories/index.html</a>
+      <a href="https://zjizhe.cn/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/" title="二叉树" target="_blank" rel="external">https://zjizhe.cn/%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -376,12 +391,32 @@
   </article>
   
     
+  <section id="comments">
+  	
+      <div id="vcomments"></div>
+    
+  </section>
+
 
   
 </div>
 
   <nav class="bar bar-footer clearfix" data-stick-bottom>
   <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/%E7%AE%97%E6%B3%95/%E5%BF%AB%E6%8E%92/" title="快排"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
+    </li>
+    
+    
+    <li class="next">
+      <a href="/%E5%89%8D%E7%AB%AF/promise%E5%AE%9E%E7%8E%B0/" title="promise实现"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
   
   
   <!-- Button trigger modal -->
@@ -497,6 +532,37 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+
+   
+
+
+
+
+   
+    
+  <script src="unpkg.com/valine/dist/Valine.min.js"></script>
+  // <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: true,
+    notify: true,
+    appId: 'GkTOHdKYip2n73k5vyOlqgRe-gzGzoHsz',
+    appKey: 'uwm2Rlwl7IKFX2UfIYSQgaIT',
+    placeholder: '快快献上你的评论~',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: true
+  });
+  </script>
+
+     
 
 
 

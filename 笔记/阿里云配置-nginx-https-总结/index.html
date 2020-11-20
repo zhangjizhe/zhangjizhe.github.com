@@ -17,20 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>540 | 怕什么真理穷</title>
-  <meta name="description" content="123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657&#x2F;&#x2F;递归版本var singleNonDuplicate &#x3D; function (arr) &amp;#123;  if (!arr.length) return nu">
+  <title>阿里云配置 nginx https 总结 | 怕什么真理穷</title>
+  <meta name="description" content="阿里云配置 nginx https 总结 安装位置太多额，导致重新安装 命令不熟悉 nginx -t 检测配置状况 nginx -s reload 重启 路径 &#x2F;etc&#x2F;nginx&#x2F;   ftp 工具 FileZilla 阿里云公网 IP 更换地址，改为安全组查看，入口挺深的 深坑一点就是 1.18 版本的。d 目录 default 80 端口文件配置，会被覆盖，找半天，才自己看代码注释掉就好了，">
 <meta property="og:type" content="article">
-<meta property="og:title" content="540">
-<meta property="og:url" content="https://zjizhe.cn/leetcode/%E7%AE%97%E6%B3%95/540/index.html">
+<meta property="og:title" content="阿里云配置 nginx https 总结">
+<meta property="og:url" content="https://zjizhe.cn/%E7%AC%94%E8%AE%B0/%E9%98%BF%E9%87%8C%E4%BA%91%E9%85%8D%E7%BD%AE-nginx-https-%E6%80%BB%E7%BB%93/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657&#x2F;&#x2F;递归版本var singleNonDuplicate &#x3D; function (arr) &amp;#123;  if (!arr.length) return nu">
+<meta property="og:description" content="阿里云配置 nginx https 总结 安装位置太多额，导致重新安装 命令不熟悉 nginx -t 检测配置状况 nginx -s reload 重启 路径 &#x2F;etc&#x2F;nginx&#x2F;   ftp 工具 FileZilla 阿里云公网 IP 更换地址，改为安全组查看，入口挺深的 深坑一点就是 1.18 版本的。d 目录 default 80 端口文件配置，会被覆盖，找半天，才自己看代码注释掉就好了，">
 <meta property="og:locale">
-<meta property="article:published_time" content="2020-11-20T03:07:00.000Z">
-<meta property="article:modified_time" content="2020-11-20T03:07:21.163Z">
+<meta property="article:published_time" content="2020-11-20T02:57:00.000Z">
+<meta property="article:modified_time" content="2020-11-20T03:21:52.857Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="前端">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://zjizhe.cn/leetcode/%E7%AE%97%E6%B3%95/540/index.html">
+  <link rel="canonical" href="https://zjizhe.cn/%E7%AC%94%E8%AE%B0/%E9%98%BF%E9%87%8C%E4%BA%91%E9%85%8D%E7%BD%AE-nginx-https-%E6%80%BB%E7%BB%93/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -172,7 +173,7 @@
   <div class="widget">
     <h3 class="widget-title">Categories</h3>
     <div class="widget-body">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/leetcode/">leetcode</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/leetcode/%E7%AE%97%E6%B3%95/">算法</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/leetcode/">leetcode </a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/leetcode/%E7%AE%97%E6%B3%95/">算法</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AE%97%E6%B3%95/">算法</a><span class="category-list-count">2</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/leetcode/">leetcode</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AE%97%E6%B3%95/">算法</a><span class="category-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -182,7 +183,7 @@
   <div class="widget">
     <h3 class="widget-title">Tags</h3>
     <div class="widget-body">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" rel="tag">二叉树</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/" rel="tag">快速排序</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%89%8B%E5%86%99/" rel="tag">手写</a><span class="tag-list-count">5</span></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" rel="tag">二叉树</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%89%8B%E5%86%99/" rel="tag">手写</a><span class="tag-list-count">5</span></li></ul>
     </div>
   </div>
 
@@ -192,7 +193,7 @@
   <div class="widget">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget-body tagcloud">
-      <a href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 13px;">二叉树</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 13px;">前端</a> <a href="/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/" style="font-size: 13px;">快速排序</a> <a href="/tags/%E6%89%8B%E5%86%99/" style="font-size: 14px;">手写</a>
+      <a href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 13px;">二叉树</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 13px;">前端</a> <a href="/tags/%E6%89%8B%E5%86%99/" style="font-size: 14px;">手写</a>
     </div>
   </div>
 
@@ -217,10 +218,10 @@
             
             <div class="item-inner">
               <p class="item-category">
-                <a class="category-link" href="/categories/leetcode/">leetcode </a><i class="icon icon-angle-right"></i><a class="category-link" href="/categories/leetcode/%E7%AE%97%E6%B3%95/">算法</a>
+                <a class="category-link" href="/categories/leetcode/">leetcode</a>
               </p>
               <p class="item-title">
-                <a href="/leetcode/%E7%AE%97%E6%B3%95/540/" class="title">540</a>
+                <a href="/leetcode/540/" class="title">540</a>
               </p>
               <p class="item-date">
                 <time datetime="2020-11-20T03:07:00.000Z" itemprop="datePublished">2020-11-20</time>
@@ -232,10 +233,10 @@
             
             <div class="item-inner">
               <p class="item-category">
-                <a class="category-link" href="/categories/leetcode/">leetcode</a><i class="icon icon-angle-right"></i><a class="category-link" href="/categories/leetcode/%E7%AE%97%E6%B3%95/">算法</a>
+                <a class="category-link" href="/categories/leetcode/">leetcode</a>
               </p>
               <p class="item-title">
-                <a href="/leetcode/%E7%AE%97%E6%B3%95/34%E6%95%B0%E7%BB%84%E6%8E%92%E5%BA%8F/" class="title">34数组排序</a>
+                <a href="/leetcode/34%E6%95%B0%E7%BB%84%E6%8E%92%E5%BA%8F/" class="title">34数组排序</a>
               </p>
               <p class="item-date">
                 <time datetime="2020-11-20T03:06:00.000Z" itemprop="datePublished">2020-11-20</time>
@@ -301,14 +302,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="draft-540" class="article article-type-draft" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="draft-阿里云配置-nginx-https-总结" class="article article-type-draft" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      540
+      阿里云配置 nginx https 总结
     </h1>
   
 
@@ -316,34 +317,55 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/leetcode/%E7%AE%97%E6%B3%95/540/" class="article-date">
-	  <time datetime="2020-11-20T03:07:00.000Z" itemprop="datePublished">2020-11-20</time>
+	<a href="/%E7%AC%94%E8%AE%B0/%E9%98%BF%E9%87%8C%E4%BA%91%E9%85%8D%E7%BD%AE-nginx-https-%E6%80%BB%E7%BB%93/" class="article-date">
+	  <time datetime="2020-11-20T02:57:00.000Z" itemprop="datePublished">2020-11-20</time>
 	</a>
 </span>
         
   <span class="article-category">
     <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/leetcode/">leetcode </a>►<a class="article-category-link" href="/categories/leetcode/%E7%AE%97%E6%B3%95/">算法</a>
+    <a class="article-category-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a>
   </span>
 
         
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a>
+  </span>
+
 
         
 
 	<span class="article-read hidden-xs">
     	<i class="icon icon-eye-fill" aria-hidden="true"></i>
-    	<span id="/leetcode/%E7%AE%97%E6%B3%95/540/" class="leancloud_visitors"  data-flag-title="540">
+    	<span id="/%E7%AC%94%E8%AE%B0/%E9%98%BF%E9%87%8C%E4%BA%91%E9%85%8D%E7%BD%AE-nginx-https-%E6%80%BB%E7%BB%93/" class="leancloud_visitors"  data-flag-title="阿里云配置 nginx https 总结">
 			<span class="leancloud-visitors-count">0</span>
 		</span>
     </span>
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/leetcode/%E7%AE%97%E6%B3%95/540/#comments" class="article-comment-link">Comments</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/%E7%AC%94%E8%AE%B0/%E9%98%BF%E9%87%8C%E4%BA%91%E9%85%8D%E7%BD%AE-nginx-https-%E6%80%BB%E7%BB%93/#comments" class="article-comment-link">Comments</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;递归版本</span><br><span class="line">var singleNonDuplicate &#x3D; function (arr) &#123;</span><br><span class="line">  if (!arr.length) return null;</span><br><span class="line">  if (arr.length &#x3D;&#x3D;&#x3D; 1) return arr[0];</span><br><span class="line">  if (arr.length &#x3D;&#x3D;&#x3D; 3) &#123;</span><br><span class="line">    if (arr[0] &#x3D;&#x3D; arr[1]) &#123;</span><br><span class="line">      return arr[2];</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">      return arr[0];</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  let LENGTH &#x3D; arr.length,</span><br><span class="line">    left &#x3D; [],</span><br><span class="line">    right &#x3D; [],</span><br><span class="line">    mid &#x3D; Math.floor(LENGTH &#x2F; 2);</span><br><span class="line"></span><br><span class="line">  if (arr[mid] &#x3D;&#x3D; arr[mid - 1]) &#123;</span><br><span class="line">    left &#x3D; arr.slice(0, mid - 1);</span><br><span class="line">    right &#x3D; arr.slice(mid + 1);</span><br><span class="line">  &#125; else if (arr[mid] &#x3D;&#x3D; arr[mid + 1]) &#123;</span><br><span class="line">    left &#x3D; arr.slice(0, mid);</span><br><span class="line">    right &#x3D; arr.slice(mid + 2);</span><br><span class="line">    console.log(left, right, mid);</span><br><span class="line">  &#125; else &#123;</span><br><span class="line">    return arr[mid];</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  if (left.length % 2 &#x3D;&#x3D;&#x3D; 0) &#123;</span><br><span class="line">    return singleNonDuplicate(right);</span><br><span class="line">  &#125; else &#123;</span><br><span class="line">    return singleNonDuplicate(left);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;二分法</span><br><span class="line">var singleNonDuplicate1 &#x3D; function (arr) &#123;</span><br><span class="line">  if (!arr.length) return null;</span><br><span class="line">  if (arr.length &#x3D;&#x3D;&#x3D; 1) return arr[0];</span><br><span class="line">  let l &#x3D; 0,</span><br><span class="line">    h &#x3D; arr.length - 1,</span><br><span class="line">    t &#x3D; -1;</span><br><span class="line">  &#x2F;&#x2F;二分法版本</span><br><span class="line">  while (l &lt;&#x3D; h) &#123;</span><br><span class="line">    let m &#x3D; Math.floor(l + (h - l) &#x2F; 2);</span><br><span class="line">    if (arr[m] &#x3D;&#x3D;&#x3D; arr[m - 1]) &#123;</span><br><span class="line">      &#x2F;&#x2F;左边偶</span><br><span class="line">      (m - 2) % 2 &#x3D;&#x3D;&#x3D; 0 ? (h &#x3D; m - 2) : (l &#x3D; m + 1);</span><br><span class="line">    &#125; else if (arr[m] &#x3D;&#x3D;&#x3D; arr[m + 1]) &#123;</span><br><span class="line">      &#x2F;&#x2F;m%2 为 （m+1）%2好懂一些，取实际长度，这快绕了一下</span><br><span class="line">      m % 2 &#x3D;&#x3D;&#x3D; 0 ? (l &#x3D; m + 2) : (h &#x3D; m - 1);</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">      return arr[m];</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  return t;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+        <h2 id="阿里云配置-nginx-https-总结"><a href="#阿里云配置-nginx-https-总结" class="headerlink" title="阿里云配置 nginx https 总结"></a>阿里云配置 nginx https 总结</h2><ul>
+<li>安装位置太多额，导致重新安装</li>
+<li>命令不熟悉<ul>
+<li>nginx -t 检测配置状况</li>
+<li>nginx -s reload 重启</li>
+<li>路径 /etc/nginx/</li>
+</ul>
+</li>
+<li>ftp 工具 FileZilla</li>
+<li>阿里云公网 IP 更换地址，改为安全组查看，入口挺深的</li>
+<li>深坑一点就是 1.18 版本的。d 目录 default 80 端口文件配置，会被覆盖，找半天，才自己看代码注释掉就好了，百度一堆不靠谱的答案。..</li>
+<li>另一个马虎点，就是配置证书一直以为 ssl 问题，结果是自己注释习惯性用了//, 应该用#</li>
+<li>apt-get 安装软件</li>
+<li>服务器 git 密码 a19920415</li>
+<li></li>
+</ul>
+
       
     </div>
     <div class="article-footer">
@@ -352,7 +374,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="https://zjizhe.cn/leetcode/%E7%AE%97%E6%B3%95/540/" title="540" target="_blank" rel="external">https://zjizhe.cn/leetcode/%E7%AE%97%E6%B3%95/540/</a>
+      <a href="https://zjizhe.cn/%E7%AC%94%E8%AE%B0/%E9%98%BF%E9%87%8C%E4%BA%91%E9%85%8D%E7%BD%AE-nginx-https-%E6%80%BB%E7%BB%93/" title="阿里云配置 nginx https 总结" target="_blank" rel="external">https://zjizhe.cn/%E7%AC%94%E8%AE%B0/%E9%98%BF%E9%87%8C%E4%BA%91%E9%85%8D%E7%BD%AE-nginx-https-%E6%80%BB%E7%BB%93/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -398,10 +420,10 @@
   
   <ul class="pager pull-left">
     
-    
-    <li class="next">
-      <a href="/leetcode/%E7%AE%97%E6%B3%95/34%E6%95%B0%E7%BB%84%E6%8E%92%E5%BA%8F/" title="34数组排序"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    <li class="prev">
+      <a href="/%E5%89%8D%E7%AB%AF/%E6%B7%B1%E6%8B%B7%E8%B4%9D/" title="深拷贝"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
     </li>
+    
     
     
   </ul>
